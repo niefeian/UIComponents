@@ -46,4 +46,5 @@ TODO: Add long description of the pod here.
     s.dependency 'AutoModel'
     s.dependency 'ProThirdpart'
     
+    s.swift_version = '5.0'
 end 
