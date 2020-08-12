@@ -1,0 +1,89 @@
+PODS:
+  - AutoModel (0.1.4)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.2.0)
+  - NFAFile (0.1.1)
+  - NFATipsUI (0.1.1):
+    - NFAToolkit
+  - NFAToolkit (0.1.1)
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - ProThirdpart (0.1.1):
+    - MBProgressHUD
+    - SDWebImage (~> 5.5.2)
+    - SnapKit (~> 4.2.0)
+  - Quick (1.2.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SnapKit (4.2.0)
+  - SwiftProjects (0.0.21):
+    - NFAFile
+    - NFATipsUI
+    - NFAToolkit
+  - UIComponents (0.1.1):
+    - AutoModel
+    - NFAToolkit
+    - ProThirdpart
+    - SnapKit (~> 4.2.0)
+    - SwiftProjects
+
+DEPENDENCIES:
+  - AutoModel
+  - FBSnapshotTestCase (~> 2.1.4)
+  - NFAToolkit
+  - Nimble (~> 7.0)
+  - Nimble-Snapshots (~> 6.3.0)
+  - ProThirdpart
+  - Quick (~> 1.2.0)
+  - SnapKit (~> 4.2.0)
+  - SwiftProjects
+  - UIComponents (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AutoModel
+    - FBSnapshotTestCase
+    - MBProgressHUD
+    - NFAFile
+    - NFATipsUI
+    - NFAToolkit
+    - Nimble
+    - Nimble-Snapshots
+    - ProThirdpart
+    - Quick
+    - SDWebImage
+    - SnapKit
+    - SwiftProjects
+
+EXTERNAL SOURCES:
+  UIComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutoModel: cbd219be08706a516db246fa3937d3209221637c
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NFAFile: 780e49c1db036e6bb400d3caba36d11b948d6766
+  NFATipsUI: 7d996b3db35d89eaa16b98d8f8b124d2314648dd
+  NFAToolkit: 71585955a80b8d7b820939e6e256ace92c998120
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  ProThirdpart: b8c0e10da0d173ab624cab9fdef4acf98c887793
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftProjects: b0cc2ef76b489b96d13f4e8e4b8fab4312a5ad0a
+  UIComponents: 8cea44a52c59e773df4ad433f1b582180228540b
+
+PODFILE CHECKSUM: ba613fb1d8c1620ef1f6c63c5550f53ab103236e
+
+COCOAPODS: 1.9.3
